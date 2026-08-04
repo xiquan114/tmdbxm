@@ -1,0 +1,13 @@
+name = "tmdbxm"
+main = "src/index.js"
+compatibility_date = "2026-05-07"
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.traces]
+enabled = true
